@@ -1,0 +1,27 @@
+html{
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+	box-sizing: border-box;
+}
+*, ::after, ::before{
+	box-sizing: inherit;
+}
+.table{
+    font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse;
+}
+.tableCell{
+    border:1px solid whitesmoke;
+    padding:10px;
+    text-align:center;
+    vertical-align: middle;
+}
+.tableHeader{
+    background-color: teal;
+    color:white;
+    font-weight: normal;
+}
+.tableRow:hover{
+    background-color:#ddd ;
+}

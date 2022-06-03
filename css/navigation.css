@@ -1,0 +1,21 @@
+html{
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+	box-sizing: border-box;
+}
+*, ::after, ::before{
+	box-sizing: inherit;
+}
+.navigation{
+    margin:10px;
+    padding:10px;
+}
+.navigationLink{
+    text-decoration: none;
+    color:rgb(2, 150, 150);
+}
+.navigationItem{
+    list-style:none;
+    padding-bottom: 10px;
+}

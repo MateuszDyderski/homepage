@@ -1,0 +1,14 @@
+html{
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+	box-sizing: border-box;
+}
+*, ::after, ::before{
+	box-sizing: inherit;
+}
+.containerTable{
+    text-align: center;
+    overflow-x:auto;
+    margin-bottom: 30px;
+}

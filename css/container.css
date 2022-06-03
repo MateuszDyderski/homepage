@@ -1,0 +1,15 @@
+html{
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+	box-sizing: border-box;
+}
+*, ::after, ::before{
+	box-sizing: inherit;
+}
+.container{
+    padding: 0 20px;
+    max-width: 850px;
+    margin: 0 auto;
+
+}

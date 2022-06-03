@@ -1,0 +1,16 @@
+html{
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+	box-sizing: border-box;
+}
+*, ::after, ::before{
+	box-sizing: inherit;
+}
+.footer{
+    padding:30px;
+    background-color: teal;
+    text-align: center;
+    color: white;
+
+}

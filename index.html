@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/containerTable.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <meta property="og:image" content="images/share.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lato:ital,wght@1,300&family=Nunito+Sans:ital@1&display=swap" rel="stylesheet">
+    <title>Mateusz Dyderski</title>
+    <meta property="og:image" content="images/share.png">
+</head>
+<body class="body">
+    <div class="contaier">
+        <nav>
+            <ul class="navigation">
+                <li class="navigationItem">
+                    <a class="navigationLink" href="#Home">Home</a>
+                </li>
+                <li class="navigationItem">
+                    <a class="navigationLink" href="#o-mnie">Parę słów o mnie</a>
+                </li>
+                <li class="navigationItem">
+                    <a class="navigationLink" href="#pasje">Inne pasje</a>
+                </li>
+                <li class="navigationItem">
+                    <a class="navigationLink" href="#interakcja">Przykładowa interakacja</a>
+                </li>
+             </ul>
+        </nav>
+    </div>
+
+    
+    <hr class="hr">
+
+    <main>
+        <header class="section sectionCentered">
+            <img class="image" width="100" height="100" src="images/Mateusz.png" alt="Mateusz Dyderski">
+            <h1 class="header">Mateusz Dyderski</h1>
+
+            <section id="interakcja" class="section"></section>
+            <h3 class="subHeader">Przykładowa interakcja w JS-ie</h3>
+            <p class="paragraph">
+                <button class="changeBackground">Ustaw <span class="nextColorName">ciemny</span> motyw strony</button>
+            </p>
+        </section>
+        </header>
+        <section id="o-mnie" class="section"></section>
+        <h3 class="subHeader">Parę słów o mnie</h3>
+        <p class="paragraph">
+            Jak juz widzicie po nagłówku nazywam się <b>Mateusz</b>. Mam 20 lat i aktualnie jestem kursantem 
+            <b class="y">You</b><b class="y1">Code</b>. Kilka tygodni temu ukończyłem technikum informatyczne. Bardzo brakuje mi szkoły.. <b class="joke">ŻARTOWAŁEM!!</b> bez szkoły życie jest piękniejsze :D. <br><i class="ps">ps. Pewnie się jeszcze stęsknie za szkołą</i> </p> 
+        </p>
+    </section>
+    <hr class="hr">
+    <section id="pasje" class="section"></section>
+        <h3 class="subHeader">Inne pasje</h3>
+        <p class="paragraph">
+            
+            Moim wielkim zainteresowaniem jest <b>siłownia</b>. Ćwiczę od ponad 6 lat. Szczerze mówiąc nie widzę sensu dnia bez treningu. Poza tym interesuję się również <b>mechaniką</b>. Niestety do tej pory nic sam nie zrobiłem. Moje zainteresowanie mechaniką kończy się na oglądaniu filmików na <b class="y3">YouTube</b> :D</p>
+    </section>
+    <div class="containerTable">
+        <table class="table" align="center">
+            <caption class="caption">Ulubieni wokaliści</caption>
+           <thead>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="col">Autorzy</th>
+                <th class="tableCell tableHeader" scope="col">Album</th>
+                <th class="tableCell tableHeader" scope="col">Ulubiony twór</th>
+            </tr>
+           </thead>
+            <tbody>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row">Sobel</th>
+                    <td class="tableCell">Pułapka na motyle</td>
+                    <td class="tableCell">Bandyta</td>
+
+                    </tr>
+                <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Szpaku</th>
+                <td class="tableCell">Różowa Pantera</td>
+                <td class="tableCell">Zły</td>
+
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row">Major SPZ</th>
+                    <td class="tableCell">Na farta</td>
+                    <td class="tableCell">Słodki zapach</td>
+    </table>
+    </div>
+    <footer class="footer">Wszelkie prawa zastrzeżone</footer>
+    </main>
+</body>
+</html>
